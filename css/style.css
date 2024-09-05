@@ -9,7 +9,8 @@
     --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid, .fa-regular {
+.fa-solid,
+.fa-regular {
     color: var(--main-color);
 }
 
@@ -22,6 +23,10 @@ body {
     width: 100%;
     padding: 0 50px;
     box-sizing: border-box;
+}
+
+.logo {
+    width: 61px;
 }
 
 .section-title {
