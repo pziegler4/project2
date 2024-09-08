@@ -25,8 +25,28 @@ body {
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    justify-content: space-between
+}
+
 .logo {
     width: 61px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* TODO  make more specific with class name*/ 
+li {
+    display: inline;
+}
+/* TODO  make more specific with class name*/ 
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .section-title {
