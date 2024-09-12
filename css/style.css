@@ -17,6 +17,9 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .main-container {
@@ -27,12 +30,13 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    padding-top: 19px;
 }
 
 .logo {
     width: 61px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .menu {
@@ -54,6 +58,23 @@ header {
 .menu-item a {
     text-decoration: none;
     color: black;
+    margin-left: 50px;
+    padding-top: 15px;
+}
+
+.menu-item a:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    margin-top: 45px;
+}
+
+.tagline {
+    margin-top: 0;
 }
 
 .section-title {
