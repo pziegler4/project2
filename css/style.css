@@ -77,6 +77,27 @@ h1 {
     margin-top: 0;
 }
 
+.search-bar {
+    display: flex;
+    height: 49px;
+    width: 377px;
+}
+
+
+.map-pin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0 0 15px;
+    background-color: #F2F2F2;
+    width: 49px;
+}
+
+.map-pin i {
+    color: black;
+    font-size: 18px;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;

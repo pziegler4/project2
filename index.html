@@ -26,7 +26,17 @@
         </header>
         <h1>Find a place to stay for your dream vacation</h1>
         <p class="tagline">In the heart of the city or surrounded by nature</p>
-        <i class="fa-solid fa-location-dot"></i>
+        <form class="search-bar">
+            <div class="map-pin">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <input class="search-box" type="text" name="search-text">
+            <input class="search-button" type="submit" value="Submit">
+        </form>
+        <section class="filters">
+            <h2>Filters</h2>
+        </section>
         <main>
             <div class="accommodation-and-popular">
                 <section class="accommodation">
@@ -74,7 +84,8 @@
                             </div>
                         </article>
                         <article class="card">
-                            <img src="./images/accommodation/febrian-zakaria2.jpg" alt="Image of hotel room showing bed">
+                            <img src="./images/accommodation/febrian-zakaria2.jpg"
+                                alt="Image of hotel room showing bed">
                             <div class="card-content">
                                 <div class="card-txt">
                                     <h3 class="card-title">Hôtel Bleu et Blanc</h3>
