@@ -97,7 +97,18 @@ h1 {
     color: black;
     font-size: 18px;
 }
+.search-button {
+    display:flex;
+    justify-content: center;
+    border-radius: 0px 15px 15px 0;
+    background-color: #0065FC;
+    color: #F2F2F2;
+}
 
+.button-container {
+    display: flex;
+    background-color: #F2F2F2;
+  }
 .section-title {
     margin: 0;
     font-size: 22px;
