@@ -194,6 +194,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 25px;
+    box-shadow: 10px;
 }
 
 .accommodation-cards .card {
@@ -324,6 +325,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    flex-wrap: wrap;
 }
 
 .things-to-do-cards .card {
