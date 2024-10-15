@@ -165,8 +165,8 @@ h1 {
 
 .info i {
     font-size: 10px;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     border: 3px solid #d9d9d9;
     border-radius: 50%;
     display: flex;
@@ -316,6 +316,14 @@ h1 {
     margin-bottom: 5px;
 }
 
+.show-more {
+    display: block;
+    color: black;
+    padding-top: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .things-to-do {
     padding: 30px;
 }
@@ -343,14 +351,39 @@ h1 {
 footer {
     background-color: #F2F2F2;
     display: flex;
+    padding: 25px;
 }
 
 .footer-column {
     flex: 1;
+    font-size: small;
+}
+
+footer h2 {
+    font-size: 18px;
+    margin-top: 0;
 }
 
 footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
+footer a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* When the browser is at least 600px and above */
+@media screen and (max-width: 1024px) {
+    footer {
+        background-color: red;
+      /* Apply some styles */
+    }
+  }
