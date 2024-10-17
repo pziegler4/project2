@@ -382,8 +382,42 @@ footer a {
 
 /* When the browser is at least 600px and above */
 @media screen and (max-width: 1024px) {
-    footer {
-        background-color: red;
-      /* Apply some styles */
+    .filters {
+        flex-direction: column;
+        align-items: start;
     }
-  }
+
+    .accommodation-and-popular {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .accommodation {
+        width: 100%;
+    }
+
+    .popular {
+        width: 100%;
+    }
+
+    .popular-cards .card {
+        width: 240px;
+    }
+
+    .popular-cards {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .things-to-do-cards .card {
+        width: 194px;
+        height: 270px;
+
+    }
+
+    .things-to-do-cards .card img {
+        height: 200px;
+    }
+}
