@@ -473,7 +473,16 @@ footer a {
     }
 
     .button-container {
-        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .accommodation-and-popular {
+        flex-direction: column-reverse;
+    }
+
+    .popular-cards .card {
+        width: 300px;
     }
 
     footer {
