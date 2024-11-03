@@ -479,6 +479,27 @@ footer a {
         padding-bottom: 13px;
     }
 
+    h1 {
+        padding-left: 15px;
+    }
+
+    .tagline {
+        padding-left: 15px;
+    }
+
+    .filters {
+        padding-left: 15px;
+    }
+
+    .map-pin {
+        margin-left: 15px;
+    }
+
+    .search-box {
+        margin-left: 15x;
+        margin-right: 15px;
+    }
+
     .search-button {
         border-radius: 15px;
         width: 49px;
@@ -498,6 +519,14 @@ footer a {
         flex-wrap: wrap;
         gap: 15px;
         width: 100%
+    }
+
+    .button-container button {
+        width: 45%;
+    }
+
+    .info {
+        padding-left: 15px;
     }
 
     .accommodation-and-popular section.accommodation {
@@ -551,5 +580,5 @@ footer a {
 
     footer ul {
         padding-top: 5px;
+        padding-left: 15px;
     }
-}
