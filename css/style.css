@@ -487,10 +487,6 @@ footer a {
         padding-left: 15px;
     }
 
-    .filters {
-        padding-left: 15px;
-    }
-
     .map-pin {
         margin-left: 15px;
     }
@@ -515,6 +511,10 @@ footer a {
         display: none;
     }
 
+    .filters {
+        padding-left: 10px;
+    }
+
     .button-container {
         flex-wrap: wrap;
         gap: 15px;
@@ -522,7 +522,8 @@ footer a {
     }
 
     .button-container button {
-        width: 45%;
+        width: 162.5px;
+        height: 50px;
     }
 
     .info {
