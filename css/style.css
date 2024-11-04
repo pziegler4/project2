@@ -172,7 +172,7 @@ h1 {
 
 .info i {
     font-size: 10px;
-    width: 30px;
+    width: 25px;
     height: 25px;
     border: 1px solid #d9d9d9;
     border-radius: 50%;
@@ -517,13 +517,15 @@ footer a {
 
     .button-container {
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 15px 10px;
         width: 100%
     }
 
     .button-container button {
         width: 162.5px;
         height: 50px;
+        font-size: 14px;
+        padding-right: 0;
     }
 
     .info {
@@ -538,6 +540,11 @@ footer a {
         flex-direction: column-reverse;
     }
 
+    .popular-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .popular-cards .card {
         width: 300px;
     }
@@ -549,13 +556,15 @@ footer a {
 
     .accommodation-cards .card {
         min-width: 270px;
-        width: 100%;
+        width: 95%;
         max-width: 335px;
         height: 207px;
     }
 
     .things-to-do-cards {
         gap: 20px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .things-to-do-cards .card {
