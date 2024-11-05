@@ -494,6 +494,7 @@ footer a {
     .search-box {
         margin-left: 15x;
         margin-right: 15px;
+        width: 150px
     }
 
     .search-button {
@@ -532,6 +533,10 @@ footer a {
         padding-left: 15px;
     }
 
+    .accommodation-and-popular section {
+        border-radius: 0%;
+    }
+
     .accommodation-and-popular section.accommodation {
         background-color: transparent;
     }
@@ -546,7 +551,7 @@ footer a {
     }
 
     .popular-cards .card {
-        width: 300px;
+        max-width: 335px;
     }
 
     .accommodation-cards {
@@ -559,6 +564,10 @@ footer a {
         width: 95%;
         max-width: 335px;
         height: 207px;
+    }
+
+    .accommodation-cards .card {
+        text-decoration: none;
     }
 
     .things-to-do-cards {
@@ -577,6 +586,10 @@ footer a {
     .things-to-do-cards .card img {
         width: 100%;
         height: 141px;
+    }
+
+    .things-to-do-cards .card-title {
+        text-decoration: none;
     }
 
     footer {
