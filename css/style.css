@@ -203,6 +203,12 @@ h1 {
     padding-top: 25px;
 }
 
+.accommodation-cards a,
+.things-to-do-cards a {
+    color: black;
+    text-decoration: none;
+}
+
 .accommodation-cards .card {
     width: 240px;
     height: 207px;
@@ -487,21 +493,26 @@ footer a {
         padding-left: 15px;
     }
 
-    .map-pin {
-        margin-left: 15px;
+
+
+
+    .search-bar {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 350px;
+
     }
 
     .search-box {
-        margin-left: 15x;
         margin-right: 15px;
-        width: 150px
+        width: 200px
     }
 
     .search-button {
         border-radius: 15px;
         width: 49px;
         height: 49px;
-        margin-left: -10px;
+        margin-left: -20px;
     }
 
     .search-button i {
@@ -548,9 +559,8 @@ footer a {
     .popular-cards {
         flex-direction: column;
         align-items: center;
-    }
-
-    .popular-cards .card {
+        min-width: 215px;
+        width: 100%;
         max-width: 335px;
     }
 
@@ -559,28 +569,31 @@ footer a {
         flex-direction: column;
     }
 
+
+
     .accommodation-cards .card {
         min-width: 270px;
         width: 95%;
         max-width: 335px;
         height: 207px;
-    }
-
-    .accommodation-cards .card {
         text-decoration: none;
+        color: black;
     }
 
     .things-to-do-cards {
         gap: 20px;
         flex-direction: column;
         align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .things-to-do-cards .card {
-        width: 315px;
+        width: 300px;
         min-width: 250px;
         height: 200px;
-
+        color: black;
+        text-decoration: none;
     }
 
     .things-to-do-cards .card img {
@@ -605,3 +618,4 @@ footer a {
         padding-top: 5px;
         padding-left: 15px;
     }
+}
