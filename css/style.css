@@ -493,9 +493,6 @@ footer a {
         padding-left: 15px;
     }
 
-
-
-
     .search-bar {
         padding-left: 15px;
         padding-right: 15px;
@@ -546,6 +543,8 @@ footer a {
 
     .accommodation-and-popular section {
         border-radius: 0%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .accommodation-and-popular section.accommodation {
@@ -561,7 +560,13 @@ footer a {
         align-items: center;
         min-width: 215px;
         width: 100%;
-        max-width: 335px;
+
+    }
+
+    .popular-cards .card {
+        width: 100%;
+        min-width: 250px;
+        max-width: 300px;
     }
 
     .accommodation-cards {
